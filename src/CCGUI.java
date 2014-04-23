@@ -1124,17 +1124,17 @@ public class CCGUI extends javax.swing.JFrame {
     carProfit.setText(Integer.toString(tempCar.carProfit));
 //    tempCar.carCumMiles = tempCar.carCumMiles+(Integer.parseInt(actualMiles.getText()));
 //    carCumMiles.setText(Integer.toString(tempCar.carCumMiles));
-    int alertMiles = 0;
-    int alertTime =0;
-    alertMiles = Integer.parseInt(actualMiles.getText())-Integer.parseInt(expMiles.getText());
-    alertTime = Integer.parseInt(actualTime.getText())-Integer.parseInt(expTime.getText());
-    if ( alertMiles > 40 ){
-        
-    }
-    
-    if (alertTime > 40){
-        
-    }
+//    int alertMiles = 0;
+//    int alertTime =0;
+//    alertMiles = Integer.parseInt(actualMiles.getText())-Integer.parseInt(expMiles.getText());
+//    alertTime = Integer.parseInt(actualTime.getText())-Integer.parseInt(expTime.getText());
+//    if ( alertMiles > 40 ){
+//        
+//    }
+//    
+//    if (alertTime > 40){
+//        
+//    }
     
     }//GEN-LAST:event_updateButtonActionPerformed
     
